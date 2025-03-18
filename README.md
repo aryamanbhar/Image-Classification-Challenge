@@ -2,9 +2,8 @@
 
 Classifies images through a structured pipeline that begins with data preprocessing, including loading images, extracting features and combining these with raw pixel data to create a comprehensive feature set. The features are then standardized to ensure uniform scaling, followed by dimensionality reduction using Principal Component Analysis to retain essential information. Finally, classifier models are trained using the processed features from the training dataset and applied to predict labels for the test dataset.
 
- 1. Data Preprocessing
- 
-Data Loading: The image datasets from the training and testing data are loaded and flattened into one-dimensional arrays
+1. Data Preprocessing
+ Data Loading: The image datasets from the training and testing data are loaded and flattened into one-dimensional arrays
 Feature Extraction of these images are done by : 
 Gray Level Co-occurrence Matrix (GLCM): Textural features such as contrast, dissimilarity, homogeneity, ASM, energy, and correlation are extracted from grayscale representations of the images.
 Edge Detection: Edges are identified using the Canny algorithm to capture boundary characteristics.
