@@ -5,7 +5,8 @@ Classifies images through a structured pipeline that begins with data preprocess
 **1. Data Preprocessing**
    
 a) Data Loading: The image datasets from the training and testing data are loaded and flattened into one-dimensional arrays
-b) Feature Extraction of these images are done by : 
+
+b) Feature Extraction of these images are done by: 
 
 i. Gray Level Co-occurrence Matrix (GLCM): Textural features such as contrast, dissimilarity, homogeneity, ASM, energy, and correlation are extracted from grayscale representations of the images.
 
