@@ -5,7 +5,6 @@ Classifies images through a structured pipeline that begins with data preprocess
 1. Data Preprocessing
    
 a) Data Loading: The image datasets from the training and testing data are loaded and flattened into one-dimensional arrays
-
 b) Feature Extraction of these images are done by : 
 
 i. Gray Level Co-occurrence Matrix (GLCM): Textural features such as contrast, dissimilarity, homogeneity, ASM, energy, and correlation are extracted from grayscale representations of the images.
@@ -22,14 +21,13 @@ c) Then the extracted features are combined with the raw pixel data to create a 
    
 All features are then standardized using StandardScaler model to ensure uniform scaling and to enhance the performance of subsequent dimensionality reduction and machine learning models.
  
-4. Dimensionality Reduction
+3. Dimensionality Reduction
    
 Dimensionality is reduced using the PCA (principal component analysis) to three principal components, retaining essential variance while minimizing computational complexity. This step enhances model efficiency by focusing on the most informative aspects of the data.
  
-6. Model Training
+4. Model Training
    
 a) A classifier model is trained using the combined standardized features 
-
 b) HistGradientBoostingClassifier model is chosen in the final solution as it gives a higher accuracy for the prediction
 
 5. Prediction and Output
