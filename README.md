@@ -41,5 +41,5 @@ This repository contains the implementation of an image classification task usin
 The predictions are saved in a CSV file named **submit.csv**.
 
 ## Results
-The final model achieved an accuracy of **0.69** on the test set, and the results were submitted to Kaggle.
+The final model achieved an accuracy of **0.69275** on the test set, and the results were submitted to Kaggle.
 
