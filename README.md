@@ -3,41 +3,10 @@
 
 ## Team Name: ML Crusaders
 
-### Team Members:
-- Seyyid Thaika
-- Aryaman Bhardwaj
-
 ## Overview
 This repository contains the implementation of an image classification task using machine learning. The solution involves data preprocessing, feature extraction, dimensionality reduction, and the application of a classifier model (HistGradientBoostingClassifier) to predict image labels from a provided dataset.
 
 ### Accuracy: 0.69 (Kaggle Submission)
-
-## Table of Contents
-1. [Dataset Analysis](#dataset-analysis)
-2. [Classifier Exploration](#classifier-exploration)
-3. [Final Solution Description](#final-solution-description)
-4. [Code Structure](#code-structure)
-5. [Dependencies](#dependencies)
-6. [How to Run](#how-to-run)
-7. [Results](#results)
-8. [License](#license)
-
-## Dataset Analysis
-The dataset used for this project consists of images belonging to multiple categories. Here’s an analysis of the dataset:
-- Total number of categories: [Insert number]
-- Number of images per category: [Insert details]
-- Visualizations: Examples from each category can be visualized below:
-
-[Insert visualizations of one example per category]
-
-## Classifier Exploration
-We explored two different classifiers:
-1. **HistGradientBoostingClassifier**: Achieved an accuracy of **0.69** on Kaggle.
-2. **RandomForestClassifier**: Achieved an accuracy of **0.65**.
-
-### Analysis:
-- HistGradientBoostingClassifier performs better due to its ability to sequentially correct errors and capture complex relationships.
-- RandomForestClassifier, by building independent decision trees, does not capture the patterns as effectively as gradient boosting.
 
 ## Final Solution Description
 
@@ -71,45 +40,8 @@ We explored two different classifiers:
 - `predict.py`: Code for making predictions and saving the output.
 - `PCA_dimensionality_reduction.py`: Code for applying PCA to reduce the feature space.
 
-## Dependencies
-- Python 3.x
-- **Libraries**:
-  - `numpy`
-  - `pandas`
-  - `scikit-learn`
-  - `matplotlib`
-  - `seaborn`
-  - `opencv-python`
-  - `scikit-image`
-
-Install dependencies using:
-```bash
-pip install -r requirements.txt
-```
-
-## How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/image-classification.git
-   cd image-classification
-   ```
-2. Run the preprocessing script to load and preprocess the data:
-   ```bash
-   python data_preprocessing.py
-   ```
-3. Train the model:
-   ```bash
-   python model_training.py
-   ```
-4. Make predictions:
-   ```bash
-   python predict.py
-   ```
-
-The predictions will be saved in a CSV file named **submit.csv**.
+The predictions are saved in a CSV file named **submit.csv**.
 
 ## Results
 The final model achieved an accuracy of **0.69** on the test set, and the results were submitted to Kaggle.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
