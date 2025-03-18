@@ -28,6 +28,7 @@ Dimensionality is reduced using the PCA (principal component analysis) to three 
 4. Model Training
    
 a) A classifier model is trained using the combined standardized features 
+
 b) HistGradientBoostingClassifier model is chosen in the final solution as it gives a higher accuracy for the prediction
 
 5. Prediction and Output
