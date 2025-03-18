@@ -1,6 +1,6 @@
 # ImageClassification
 
-Classifies images through a structured pipeline that begins with data preprocessing, including loading images, extracting features and combining these with raw pixel data to create a comprehensive feature set. The features are then standardized to ensure uniform scaling, followed by dimensionality reduction using Principal Component Analysis to retain essential information. Finally, classifier models are trained using the processed features from the training dataset and applied to predict labels for the test dataset.
+My solution can classify images through a structured pipeline that begins with data preprocessing, including loading images, extracting features and combining these with raw pixel data to create a comprehensive feature set. The features are then standardized to ensure uniform scaling, followed by dimensionality reduction using Principal Component Analysis to retain essential information. Finally, classifier models are trained using the processed features from the training dataset and applied to predict labels for the test dataset.
 
 **1. Data Preprocessing**
    
