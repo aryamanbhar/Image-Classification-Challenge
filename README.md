@@ -4,7 +4,7 @@
 ## Overview
 This repository contains the implementation of an image classification task using machine learning for the Image Classification Challenge on Kaggle: https://www.kaggle.com/competitions/hku-comp3314-2024-1a-a3-image-classification-challenge/overview. The solution involves data preprocessing, feature extraction, dimensionality reduction, and the application of a classifier model (HistGradientBoostingClassifier) to predict image labels from a provided dataset.
 
-### Accuracy: 0.69275 (Kaggle Submission) - Top 20
+### Accuracy: 0.69275 (Kaggle Submission) 
 
 ## Final Solution Description
 
