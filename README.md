@@ -18,18 +18,18 @@ iv. Histogram of Oriented Gradients (HOG): HOG features capture shape and struct
 
 c) Then the extracted features are combined with the raw pixel data to create a more comprehensive representation of the images.
  
-3. Feature Standardization
+2. Feature Standardization
 All features are then standardized using StandardScaler model to ensure uniform scaling and to enhance the performance of subsequent dimensionality reduction and machine learning models.
  
-4. Dimensionality Reduction
+3. Dimensionality Reduction
 Dimensionality is reduced using the PCA (principal component analysis) to three principal components, retaining essential variance while minimizing computational complexity. This step enhances model efficiency by focusing on the most informative aspects of the data.
  
-5. Model Training
+4. Model Training
    
 a) A classifier model is trained using the combined standardized features 
 
 b) HistGradientBoostingClassifier model is chosen in the final solution as it gives a higher accuracy for the prediction
 
-7. Prediction and Output
+5. Prediction and Output
 The trained model predicts labels for the test dataset using the processed feature set and gets saved in a CSV file called submit.csv 
  
